@@ -67,6 +67,7 @@ body {
 }
 
 .accordion__tab-content {
+  transition: all 0.2s;
 }
 
 .accordion__tab-content img {
@@ -93,4 +94,24 @@ body {
 
 .label-tab:has(input:checked) .accordion__tab-title {
   color: var(--color-rebeccapurple);
+}
+
+.label-tab:not(:has(input:checked)) .accordion__tab-content {
+  height: 0;
+  transform: scale(0);
+}
+
+.label-tab:has(input:checked) .accordion__tab-content {
+  height: 100%;
+  transform: scale(1);
+}
+
+.label-tab:not(:has(input:checked)) .accordion__tab-content img {
+  height: 0;
+  transform: scale(0);
+}
+
+.label-tab:has(input:checked) .accordion__tab-content img {
+  height: 100%;
+  transform: scale(1);
 }
