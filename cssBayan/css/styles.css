@@ -1,0 +1,26 @@
+:root {
+  --color-black: #111111;
+  --color-white: #eeeeee;
+  --color-rebeccapurple: rebeccapurple;
+  --color-indigo: indigo;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
