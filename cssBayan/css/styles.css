@@ -58,7 +58,6 @@ body {
 }
 
 .label-tab input[type='radio'] {
-  display: none;
   visibility: hidden;
 }
 
