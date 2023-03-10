@@ -38,7 +38,7 @@ body {
 
 .accordion__title {
   font-size: 5rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 @media (max-width: 820px) {
