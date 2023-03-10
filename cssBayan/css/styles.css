@@ -61,6 +61,9 @@ body {
   display: block;
   width: 4rem;
   height: 4rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 .accordion__tab-content {
@@ -82,6 +85,12 @@ body {
 
 .accordion:hover .accordion__tab-icon {
   background-image: url(../images/plus.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
+}
+
+.accordion:hover .label-tab:has(input:checked) .accordion__tab-icon {
+  background-image: url(../images/minus.svg);
+}
+
+.label-tab:has(input:checked) .accordion__tab-title {
+  color: var(--color-rebeccapurple);
 }
