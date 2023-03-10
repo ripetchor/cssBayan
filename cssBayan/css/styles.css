@@ -125,3 +125,11 @@ body {
   height: 100%;
   transform: scale(1);
 }
+
+.label-tab:active {
+  background-color: var(--color-indigo);
+}
+
+.label-tab:active .accordion__tab .accordion__tab-title {
+  color: var(--color-white);
+}
