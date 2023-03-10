@@ -41,8 +41,13 @@ body {
 
 .label-tab {
   display: block;
-  padding-block: 1rem;
+  padding: 1rem;
   border-top: 0.2rem solid var(--color-indigo);
+}
+
+.label-tab input[type='radio'] {
+  display: none;
+  visibility: hidden;
 }
 
 .accordion__tab {
