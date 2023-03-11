@@ -59,6 +59,7 @@ body {
 
 .label-tab input[type='radio'] {
   visibility: hidden;
+  display: none;
 }
 
 .accordion__tab {
