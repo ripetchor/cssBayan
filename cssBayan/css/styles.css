@@ -104,20 +104,22 @@ body {
   margin-inline: auto;
 }
 
-.accordion:hover * {
-  cursor: pointer;
-}
+@media (hover: hover) {
+  .accordion:hover * {
+    cursor: pointer;
+  }
 
-.accordion:hover .accordion__tab {
-  color: var(--color-indigo);
-}
+  .accordion:hover .accordion__tab {
+    color: var(--color-indigo);
+  }
 
-.accordion:hover .accordion__tab-icon {
-  background-image: url(../images/plus.svg);
-}
+  .accordion:hover .accordion__tab-icon {
+    background-image: url(../images/plus.svg);
+  }
 
-.accordion:hover .label-tab:has(input:checked) .accordion__tab-icon {
-  background-image: url(../images/minus.svg);
+  .accordion:hover .label-tab:has(input:checked) .accordion__tab-icon {
+    background-image: url(../images/minus.svg);
+  }
 }
 
 .label-tab:has(input:checked) .accordion__tab-title {
@@ -144,14 +146,16 @@ body {
   transform: scale(1);
 }
 
-.label-tab:hover .accordion__tab .accordion__tab-content {
-  height: 100%;
-  transform: scale(1);
-}
+@media (hover: hover) {
+  .label-tab:hover .accordion__tab .accordion__tab-content {
+    height: 100%;
+    transform: scale(1);
+  }
 
-.label-tab:hover .accordion__tab .accordion__tab-content img {
-  height: 100%;
-  transform: scale(1);
+  .label-tab:hover .accordion__tab .accordion__tab-content img {
+    height: 100%;
+    transform: scale(1);
+  }
 }
 
 .label-tab:active {
