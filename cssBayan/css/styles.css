@@ -123,6 +123,16 @@ body {
   }
 }
 
+@media (max-width: 820px) {
+  .accordion .accordion__tab-icon {
+    background-image: url(../images/plus.svg);
+  }
+
+  .accordion .label-tab:has(input:checked) .accordion__tab-icon {
+    background-image: url(../images/minus.svg);
+  }
+}
+
 .label-tab:has(input:checked) .accordion__tab-title {
   color: var(--color-rebeccapurple);
 }
