@@ -92,6 +92,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  transition: all 0.2s;
 }
 
 .accordion__tab-content {
@@ -175,4 +176,8 @@ body {
 
 .label-tab:active .accordion__tab .accordion__tab-title {
   color: var(--color-white);
+}
+
+.label-tab:active .accordion__tab .accordion__tab-title .accordion__tab-icon {
+  transform: scale(1.6);
 }
