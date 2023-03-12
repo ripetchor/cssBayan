@@ -120,7 +120,7 @@ body {
   }
 
   .accordion:hover .label-tab:has(input:checked) .accordion__tab-icon {
-    background-image: url(../images/minus.svg);
+    background-image: url(../images/close.svg);
   }
 }
 
@@ -130,7 +130,7 @@ body {
   }
 
   .accordion .label-tab:has(input:checked) .accordion__tab-icon {
-    background-image: url(../images/minus.svg);
+    background-image: url(../images/close.svg);
   }
 }
 
