@@ -168,6 +168,10 @@ body {
     height: 100%;
     transform: scale(1);
   }
+
+  .label-tab:hover .accordion__tab .accordion__tab-title .accordion__tab-icon {
+    background-image: url(../images/close.svg);
+  }
 }
 
 .label-tab:active {
